@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#To run 
+rails s -b $IP -p $PORT
 
-Things you may want to cover:
+#git
+git config --global user.name "Susans Finkel"
+git config --global user.email "susan.finkel@outlook.com"
+git init
 
-* Ruby version
+#to add all files
+#git add -A
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+git remote add origin git@github.com:sxfinkel/rails_projects.git
+git push -u origin master
