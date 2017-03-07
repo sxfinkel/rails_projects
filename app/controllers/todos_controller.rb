@@ -25,10 +25,10 @@ class TodosController < ApplicationController
    if @todo.update(todo_params)
       flash[:notice] = "Todo was successfully updated"
       redirect_to todo_path(@todo)
-    else
+   else
       render 'edit'
-    end
    end
+  end
  
     
     def index
@@ -50,5 +50,5 @@ class TodosController < ApplicationController
     def todo_params
       params.require(:todo).permit(:name, :description)
     end
-  end
+end
   
